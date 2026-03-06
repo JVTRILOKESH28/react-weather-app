@@ -1,4 +1,5 @@
-import WeatherApp from "./weatherapp";
+import WeatherApp from "./WeatherApp";
+
 function App() {
   return (
     <>
