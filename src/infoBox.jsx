@@ -12,7 +12,7 @@ import OpacityIcon from '@mui/icons-material/Opacity';
 import DeviceThermostatIcon from '@mui/icons-material/DeviceThermostat';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 
-import './InfoBox.css';
+import './infoBox.css';
 
 export default function InfoBox({ info }) {
 
