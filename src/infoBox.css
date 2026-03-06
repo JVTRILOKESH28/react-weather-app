@@ -1,0 +1,95 @@
+ .infobox{
+    margin-top:40px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.infobox h2{
+    font-size:32px;
+    margin-bottom:25px;
+    color:#333;
+}
+
+/* Card container */
+.card{
+    width:60%;
+    display:flex;
+    justify-content:center;
+}
+
+/* Material UI card styling */
+.card .MuiCard-root{
+    width:100%;
+    min-height:420px;
+    border-radius:16px;
+    box-shadow:0px 10px 30px rgba(0,0,0,0.2);
+    transition:transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* hover effect */
+.card .MuiCard-root:hover{
+    transform:scale(1.02);
+    box-shadow:0px 14px 40px rgba(0,0,0,0.25);
+}
+
+/* image */
+.card .MuiCardMedia-root{
+    height:220px;
+}
+
+/* weather text */
+.card p{
+    font-size:17px;
+    margin:6px 0;
+}
+
+/* city name */
+.card .MuiTypography-h5{
+    font-size:28px;
+    font-weight:600;
+}
+.infobox h2{
+    color:#38bdf8;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+
+.infobox h2{
+color:#38bdf8;
+text-align:center;
+margin-bottom:20px;
+}
+
+.card{
+display:flex;
+justify-content:center;
+}
+
+.weather-icon{
+font-size:35px;
+margin-bottom:10px;
+color:#38bdf8;
+}
+
+.card p{
+display:flex;
+align-items:center;
+gap:8px;
+margin:6px 0;
+font-size:15px;
+}
+
+.weather-row{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.weather-row .icon{
+font-size:18px;
+display:flex;
+align-items:center;
+}
