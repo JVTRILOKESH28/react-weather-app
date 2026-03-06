@@ -1,5 +1,4 @@
 import WeatherApp from "./weatherapp";
-
 function App() {
   return (
     <>
